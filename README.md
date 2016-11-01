@@ -7,3 +7,13 @@ crontab -e
 #paste it in crontab, right now its configured once every 5 mins.
 #Change it to your preference
 #Standard time decided : 5 mins
+#after logging into the system as root, make a folder tool under root
+mkdir /root/tool
+#path -> /root/tool
+#go to tool
+cd tool
+#install and initialize git
+sudo yum install git
+git init
+#git clone the repo
+git clone https://github.com/SyedSufyan/monScripts.git

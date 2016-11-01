@@ -1,3 +1,4 @@
 #paste this line in crontab file, this will run the script every 5 mins
+#Monitoring tool deployed my the admin(pnjk84-adm)
 */5 * * * *  bash /root/tool/monScripts/mon.sh >> /root/tool/monScripts/datalog.txt
 
