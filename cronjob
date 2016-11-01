@@ -1,2 +1,3 @@
-#paste this line in crontab file, this will run the script every hour
-*/5 * * * *  bash /home/sufyan/monScripts/mon.sh >> /home/sufyan/monScripts/datalog.txt
+#paste this line in crontab file, this will run the script every 5 mins
+*/5 * * * *  bash /root/tool/monScripts/mon.sh >> /root/tool/monScripts/datalog.txt
+
